@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (4.8.1)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMSessionFetcher/Core (1.2.1)
+  - KeychainAccess (3.1.2)
+  - LFLiveKit (2.6)
+  - Moya (10.0.0):
+    - Moya/Core (= 10.0.0)
+  - Moya/Core (10.0.0):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - SwiftyJSON (4.2.0)
+  - XCDYouTubeKit (2.7.3)
+  - YTLiveStreaming (0.2.12):
+    - KeychainAccess
+    - LFLiveKit
+    - Moya (= 10.0.0)
+    - SwiftyJSON
+
+DEPENDENCIES:
+  - GoogleSignIn
+  - XCDYouTubeKit (~> 2.5)
+  - YTLiveStreaming
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - KeychainAccess
+    - LFLiveKit
+    - Moya
+    - Result
+    - SwiftyJSON
+    - XCDYouTubeKit
+    - YTLiveStreaming
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+  Moya: adb58b0f4e58430db43cc6e2f6ebab1836501186
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  XCDYouTubeKit: 3f4fd3eb3ed494a46a8f007b91315eed6dd6df1f
+  YTLiveStreaming: 62db20f1dc6ee0aed654356ee220e5b14b1506a0
+
+PODFILE CHECKSUM: 9f0e608c079196e21c760c29e4ba7bbd455e3e1d
+
+COCOAPODS: 1.6.0.beta.2
