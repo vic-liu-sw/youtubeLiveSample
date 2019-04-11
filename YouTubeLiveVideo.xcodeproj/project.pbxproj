@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36171935225C87D300B812BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36171934225C87D300B812BD /* GoogleService-Info.plist */; };
 		62F6B577B430D78912B92163 /* Pods_YouTubeLiveVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D49C69C84C0F80F29371978 /* Pods_YouTubeLiveVideo.framework */; };
 		7F10443A1DBDFFF3006AA1EE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1044381DBDFFF3006AA1EE /* Alert.swift */; };
 		7F10443B1DBDFFF3006AA1EE /* StatusBarShowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1044391DBDFFF3006AA1EE /* StatusBarShowingViewController.swift */; };
@@ -47,7 +46,6 @@
 /* Begin PBXFileReference section */
 		1D25A3DFDBD2707F0A23DDB9 /* Pods-YouTubeLiveVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeLiveVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouTubeLiveVideo/Pods-YouTubeLiveVideo.release.xcconfig"; sourceTree = "<group>"; };
 		2F6AF40A23D40D691D15F9E0 /* Pods-YouTubeLiveVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeLiveVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouTubeLiveVideo/Pods-YouTubeLiveVideo.debug.xcconfig"; sourceTree = "<group>"; };
-		36171934225C87D300B812BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Users/vic_liu/Downloads/YTDemo/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7F1044381DBDFFF3006AA1EE /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alert.swift; path = YouTubeLiveVideo/Helpers/Alert.swift; sourceTree = "<group>"; };
 		7F1044391DBDFFF3006AA1EE /* StatusBarShowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusBarShowingViewController.swift; path = YouTubeLiveVideo/Helpers/StatusBarShowingViewController.swift; sourceTree = "<group>"; };
 		7F1044451DBE2325006AA1EE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				7F53B1B32030B4B300E09CFA /* AppDelegate.swift */,
-				36171934225C87D300B812BD /* GoogleService-Info.plist */,
 				7F53B1BA2030B57E00E09CFA /* Info.plist */,
 				7F53B1B62030B4B400E09CFA /* YouTubeLiveVideo-Bridging-Header.h */,
 			);
@@ -303,7 +300,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F53B1AB2030724200E09CFA /* Main.storyboard in Resources */,
-				36171935225C87D300B812BD /* GoogleService-Info.plist in Resources */,
 				7F9274B31DBDCAD00051DE6B /* Assets.xcassets in Resources */,
 				7F53B1AA2030724200E09CFA /* LaunchScreen.storyboard in Resources */,
 			);
